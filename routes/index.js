@@ -3,7 +3,7 @@ var router = express.Router();
 var messagebird = require('messagebird')('TsTUHuDrTkUwHAY56ktunfIB5')
 
 /* GET home page. */
-router.get('/', function (req, res, next) {
+router.get('/', function (req, res) {
 res.render('index');
 });
 
